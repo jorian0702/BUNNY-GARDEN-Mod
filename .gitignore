@@ -7,27 +7,22 @@ UnityCrashHandler64.exe
 Save/
 
 # BepInEx runtime files (downloaded, not source)
-BepInEx/core/
-BepInEx/config/
-BepInEx/patchers/
-BepInEx/cache/
-BepInEx/LogOutput.log
+BepInEx/
 winhttp.dll
 doorstop_config.ini
 .doorstop_version
 changelog.txt
 
-# Keep BepInEx plugins (our mod output)
-!BepInEx/plugins/
+# Reverse engineering tools & output (NEVER publish)
+UnityProject/
+ModTools/Decompiler/
+ModTools/AssetRipper/
+ModTools/decompile_output.txt
+ModTools/openapi.json
 
 # Build artifacts
-ModTools/Decompiler/bin/
-ModTools/Decompiler/obj/
 ModTools/UnlimitedMoneyMod/bin/
 ModTools/UnlimitedMoneyMod/obj/
-
-# Decompiler output (large generated file)
-ModTools/decompile_output.txt
 
 # Downloaded files
 ModTools/BepInEx_win_x64.zip
@@ -37,8 +32,13 @@ ModTools/BepInEx_win_x64.zip
 *.user
 *.suo
 
-# Agent tools
+# Cursor agent files
 agent-tools/
 agent-transcripts/
 mcps/
 terminals/
+
+# Misc
+*.log
+log/
+D3D12/
