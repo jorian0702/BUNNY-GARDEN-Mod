@@ -42,3 +42,4 @@ terminals/
 *.log
 log/
 D3D12/
+*.zip
